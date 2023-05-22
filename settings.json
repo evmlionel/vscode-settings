@@ -1,0 +1,53 @@
+{
+  "editor.renderControlCharacters": false,
+  "security.workspace.trust.untrustedFiles": "open",
+  //"terminal.integrated.fontFamily": "monospace",
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": false,
+  "[solidity]": {
+    "editor.defaultFormatter": "JuanBlanco.solidity"
+  },
+  "solidity.formatter": "forge",
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.fontFamily": "JetBrainsMono Nerd Font",
+  "editor.fontSize": 16,
+  "terminal.integrated.fontSize": 16,
+  "window.zoomLevel": 0.8,
+  "markdown.preview.fontSize": 16,
+  "editor.fontLigatures": true,
+  "explorer.decorations.badges": false,
+  "editor.tabSize": 2,
+  "workbench.sash.size": 1,
+  "workbench.sash.hoverDelay": 0,
+  "workbench.tree.indent": 10,
+  // "editor.semanticHighlighting.enabled": false,
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "html.autoClosingTags": false,
+  "editor.wordWrap": "on",
+  "editor.linkedEditing": true,
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.bracketPairColorization.enabled": true,
+  "[python]": {
+    "editor.formatOnType": true
+  },
+  "prettier.singleQuote": true,
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "workbench.colorCustomizations": {},
+  "editor.fontWeight": "normal",
+  "editor.cursorBlinking": "phase",
+  "workbench.sideBar.location": "right",
+  "markdown-preview-enhanced.previewTheme": "github-dark.css",
+  "editor.minimap.enabled": false,
+  "window.menuBarVisibility": "compact",
+  "cSpell.dictionaryDefinitions": [],
+  "workbench.iconTheme": "material-icon-theme",
+  "solidity.telemetry": false,
+  "solidity.packageDefaultDependenciesContractsDirectory": "src",
+  "solidity.packageDefaultDependenciesDirectory": "lib"
+}
