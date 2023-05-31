@@ -1,8 +1,6 @@
 {
   "editor.renderControlCharacters": false,
   "security.workspace.trust.untrustedFiles": "open",
-  //"terminal.integrated.fontFamily": "monospace",
-  "editor.formatOnSave": true,
   "editor.formatOnPaste": false,
   "[solidity]": {
     "editor.defaultFormatter": "JuanBlanco.solidity"
