@@ -11,8 +11,8 @@
   },
   "editor.fontFamily": "JetBrainsMono Nerd Font",
   "editor.fontSize": 16,
-  "terminal.integrated.fontSize": 16,
-  "window.zoomLevel": 0.8,
+  "terminal.integrated.fontSize": 14,
+  "window.zoomLevel": 1,
   "markdown.preview.fontSize": 16,
   "editor.fontLigatures": true,
   "explorer.decorations.badges": false,
@@ -47,5 +47,41 @@
   "workbench.iconTheme": "material-icon-theme",
   "solidity.telemetry": false,
   "solidity.packageDefaultDependenciesContractsDirectory": "src",
-  "solidity.packageDefaultDependenciesDirectory": "lib"
+  "solidity.packageDefaultDependenciesDirectory": "lib",
+  "terminal.integrated.cursorStyle": "line",
+  "inline-bookmarks.expert.custom.words.mapping": {
+    "blue": ["@audit[\\s]"],
+    "purple": ["@audit\\-info[\\s]"],
+    "yellow": ["@audit\\-check[\\s]"],
+    "green": ["@audit\\-ok[\\s]"],
+    "dark-green": ["@audit\\-submitted[\\s]"],
+    "red": ["@audit\\-issue[\\s]"]
+  },
+  "inline-bookmarks.expert.custom.styles": {
+    "blue": {
+      "gutterIconColor": "#5C5CFF",
+      "color": "#5C5CFF"
+    },
+    "purple": {
+      "gutterIconColor": "#9932CC",
+      "color": "#9932CC"
+    },
+    "yellow": {
+      "gutterIconColor": "#FFC300",
+      "color": "#FFC300"
+    },
+    "green": {
+      "gutterIconColor": "#8AFF8A",
+      "color": "#8AFF8A"
+    },
+    "dark-green": {
+      "gutterIconColor": "#00A300",
+      "color": "#00A300"
+    },
+    "red": {
+      "gutterIconColor": "#BA0F30",
+      "color": "#BA0F30"
+    }
+  }
+  
 }
