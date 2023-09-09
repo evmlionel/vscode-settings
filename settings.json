@@ -4,7 +4,7 @@
   "editor.fontLigatures": true,
   "editor.fontSize": 16,
   "editor.fontWeight": "normal",
-  "editor.formatOnPaste": false,
+  "editor.formatOnPaste": false, 
   "editor.formatOnSave": true,
   "editor.lineHeight": 0,
   "editor.linkedEditing": true,
@@ -12,37 +12,12 @@
   "editor.renderControlCharacters": false,
   "editor.tabSize": 2,
   "editor.wordWrap": "on",
-  
+
   "explorer.decorations.badges": false,
 
   "html.autoClosingTags": false,
-  
-  "[html]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-
-  "[javascript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode" 
-  },
-
-  "[json]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-
-  "[python]": {
-    "editor.formatOnType": true
-  },
 
   "prettier.singleQuote": true,
-  
-  "[solidity]": {
-    "editor.defaultFormatter": "JuanBlanco.solidity"
-  },
-
-  "solidity.formatter": "forge",
-  "solidity.packageDefaultDependenciesContractsDirectory": "src",
-  "solidity.packageDefaultDependenciesDirectory": "lib",
-  "solidity.telemetry": false,
 
   "security.workspace.trust.untrustedFiles": "open",
 
@@ -54,7 +29,7 @@
 
   "workbench.colorCustomizations": {},
   "workbench.iconTheme": "material-icon-theme",
-  "workbench.sash.hoverDelay": 0,
+  "workbench.sash.hoverDelay": 0, 
   "workbench.sash.size": 1,
   "workbench.sideBar.location": "right",
   "workbench.tree.indent": 10,
@@ -102,5 +77,30 @@
 
   "terminal.external.osxExec": "Warp.app",
 
-  "liveServer.settings.donotShowInfoMsg": true
+  "liveServer.settings.donotShowInfoMsg": true,
+  
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  "[python]": {
+    "editor.formatOnType": true
+  },
+
+  "[solidity]": {
+    "editor.defaultFormatter": "JuanBlanco.solidity"
+  },
+
+  "solidity.formatter": "forge",
+  "solidity.packageDefaultDependenciesContractsDirectory": "src",
+  "solidity.packageDefaultDependenciesDirectory": "lib",
+  "solidity.telemetry": false
 }
