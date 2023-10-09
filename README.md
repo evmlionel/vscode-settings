@@ -17,6 +17,7 @@ A repo for my VS Code settings.
   "editor.linkedEditing": true,
   "editor.minimap.enabled": false,
   "editor.renderControlCharacters": false,
+  "editor.renderWhitespace": "all",
   "editor.tabSize": 2,
   "editor.wordWrap": "on",
 
@@ -33,7 +34,7 @@ A repo for my VS Code settings.
   "terminal.integrated.fontSize": 14,
 
   "window.menuBarVisibility": "compact",
-  "window.zoomLevel": 0.35,
+  "window.zoomLevel": 0.2,
 
   "workbench.colorCustomizations": {},
   "workbench.iconTheme": "material-icon-theme",
