@@ -74,6 +74,7 @@ A repo for my VS Code settings.
       "gutterIconColor": "#FFC300"
     }
   },
+  
 
   "inline-bookmarks.expert.custom.words.mapping": {
     "blue": ["@audit[\\s]"],
@@ -111,6 +112,14 @@ A repo for my VS Code settings.
   "solidity.formatter": "forge",
   "solidity.packageDefaultDependenciesContractsDirectory": "src",
   "solidity.packageDefaultDependenciesDirectory": "lib",
-  "solidity.telemetry": false
+  "solidity.telemetry": false,
+  "github.copilot.enable": {
+    "*": true,
+    "plaintext": false,
+    "markdown": true,
+    "scminput": false
+  },
+  "editor.accessibilitySupport": "off"
 }
+
 ```
