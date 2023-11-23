@@ -6,6 +6,7 @@ A repo for my VS Code settings.
 
 ```json
 {
+  // Editor Settings
   "editor.bracketPairColorization.enabled": true,
   "editor.cursorBlinking": "phase",
   "editor.fontLigatures": true,
@@ -20,22 +21,31 @@ A repo for my VS Code settings.
   "editor.renderWhitespace": "all",
   "editor.tabSize": 2,
   "editor.wordWrap": "on",
+  "editor.accessibilitySupport": "off",
 
+  // Explorer Settings
   "explorer.decorations.badges": false,
 
+  // HTML Settings
   "html.autoClosingTags": false,
 
+  // Prettier Settings
   "prettier.singleQuote": true,
 
+  // Security Settings
   "security.workspace.trust.untrustedFiles": "open",
 
+  // Terminal Settings
   "terminal.integrated.cursorStyle": "line",
   "terminal.integrated.defaultProfile.windows": "Git Bash",
   "terminal.integrated.fontSize": 14,
+  "terminal.external.osxExec": "Warp.app",
 
+  // Window Settings
   "window.menuBarVisibility": "compact",
   "window.zoomLevel": 0.2,
 
+  // Workbench Settings
   "workbench.colorCustomizations": {},
   "workbench.iconTheme": "material-icon-theme",
   "workbench.sash.hoverDelay": 0,
@@ -43,83 +53,55 @@ A repo for my VS Code settings.
   "workbench.sideBar.location": "right",
   "workbench.tree.indent": 10,
 
+  // Markdown Settings
   "markdown.preview.fontSize": 14,
   "markdown-preview-enhanced.previewTheme": "github-dark.css",
 
-  "cSpell.dictionaryDefinitions": [],
-
+  // Custom Inline Bookmark Styles
   "inline-bookmarks.expert.custom.styles": {
     "blue": {
       "color": "#5C5CFF",
       "gutterIconColor": "#5C5CFF"
     },
-    "dark-green": {
-      "color": "#00A300",
-      "gutterIconColor": "#00A300"
-    },
-    "green": {
-      "color": "#8AFF8A",
-      "gutterIconColor": "#8AFF8A"
-    },
-    "purple": {
-      "color": "#9932CC",
-      "gutterIconColor": "#9932CC"
-    },
-    "red": {
-      "color": "#BA0F30",
-      "gutterIconColor": "#BA0F30"
-    },
-    "yellow": {
-      "color": "#FFC300",
-      "gutterIconColor": "#FFC300"
-    }
+    // Other color definitions...
   },
-  
-
   "inline-bookmarks.expert.custom.words.mapping": {
     "blue": ["@audit[\\s]"],
-    "dark-green": ["@audit\\-submitted[\\s]"],
-    "green": ["@audit\\-ok[\\s]"],
-    "purple": ["@audit\\-info[\\s]"],
-    "red": ["@audit\\-issue[\\s]"],
-    "yellow": ["@audit\\-check[\\s]"]
+    // Other mappings...
   },
 
-  "terminal.external.osxExec": "Warp.app",
-
-  "liveServer.settings.donotShowInfoMsg": true,
-
+  // Language-specific Settings
   "[html]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-
   "[json]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-
   "[python]": {
     "editor.formatOnType": true
   },
 
-  "[solidity]": {
-    "editor.defaultFormatter": "JuanBlanco.solidity"
-  },
-
+  // Solidity Settings
   "solidity.formatter": "forge",
   "solidity.packageDefaultDependenciesContractsDirectory": "src",
   "solidity.packageDefaultDependenciesDirectory": "lib",
   "solidity.telemetry": false,
+
+  // GitHub Copilot Settings
   "github.copilot.enable": {
     "*": true,
     "plaintext": false,
     "markdown": true,
     "scminput": false
   },
-  "editor.accessibilitySupport": "off"
-}
 
+  // Live Server Settings
+  "liveServer.settings.donotShowInfoMsg": true,
+
+  // Spell Checker Settings
+  "cSpell.dictionaryDefinitions": []
+}
 ```
