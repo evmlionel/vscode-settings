@@ -83,6 +83,9 @@ A repo for my VS Code settings.
   "[python]": {
     "editor.formatOnType": true
   },
+  // "[solidity]": {
+  //   "editor.defaultFormatter": "JuanBlanco.solidity"
+  // },
 
   // Solidity Settings
   "solidity.formatter": "forge",
