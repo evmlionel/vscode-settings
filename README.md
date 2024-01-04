@@ -61,6 +61,9 @@ A repo for my VS Code settings.
   },
   "liveServer.settings.donotShowInfoMsg": true,
   "cSpell.dictionaryDefinitions": [],
-  "editor.accessibilitySupport": "off"
+  "editor.accessibilitySupport": "off",
+  "[markdown]": {
+    "editor.defaultFormatter": "yzhang.markdown-all-in-one"
+  }
 }
 ```
