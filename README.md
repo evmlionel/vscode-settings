@@ -17,11 +17,12 @@ A repo for my VS Code settings.
   "editor.linkedEditing": true,
   "editor.minimap.enabled": false,
   "editor.renderControlCharacters": false,
-  "editor.renderWhitespace": "all",
   "editor.tabSize": 2,
   "editor.wordWrap": "on",
   "explorer.decorations.badges": false,
   "html.autoClosingTags": false,
+  "markdown.preview.fontSize": 14,
+  "markdown-preview-enhanced.previewTheme": "github-dark.css",
   "prettier.singleQuote": true,
   "security.workspace.trust.untrustedFiles": "open",
   "terminal.integrated.cursorStyle": "line",
@@ -30,13 +31,10 @@ A repo for my VS Code settings.
   "terminal.external.osxExec": "Warp.app",
   "window.menuBarVisibility": "compact",
   "workbench.colorCustomizations": {},
-  "workbench.iconTheme": "material-icon-theme",
   "workbench.sash.hoverDelay": 0,
   "workbench.sash.size": 1,
   "workbench.sideBar.location": "right",
   "workbench.tree.indent": 10,
-  "markdown.preview.fontSize": 14,
-  "markdown-preview-enhanced.previewTheme": "github-dark.css",
   "[html]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
@@ -45,6 +43,9 @@ A repo for my VS Code settings.
   },
   "[json]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[markdown]": {
+    "editor.defaultFormatter": "yzhang.markdown-all-in-one"
   },
   "[python]": {
     "editor.formatOnType": true
@@ -62,8 +63,5 @@ A repo for my VS Code settings.
   "liveServer.settings.donotShowInfoMsg": true,
   "cSpell.dictionaryDefinitions": [],
   "editor.accessibilitySupport": "off",
-  "[markdown]": {
-    "editor.defaultFormatter": "yzhang.markdown-all-in-one"
-  }
 }
 ```
