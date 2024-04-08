@@ -8,6 +8,7 @@ A repo for my VS Code settings.
 {
   "editor.bracketPairColorization.enabled": true,
   "editor.cursorBlinking": "phase",
+  "editor.fontFamily": "Hack",
   "editor.fontLigatures": true,
   "editor.fontSize": 14,
   "editor.fontWeight": "normal",
