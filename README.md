@@ -9,17 +9,18 @@ A repo for my VS Code settings.
     "editor.bracketPairColorization.enabled": true,
     "editor.cursorBlinking": "phase",
     "editor.fontLigatures": true,
-    "editor.fontSize": 14,
     "editor.fontWeight": "normal",
     "editor.formatOnPaste": false,
     "editor.formatOnSave": true,
-    "editor.lineHeight": 22,
     "editor.linkedEditing": true,
     "editor.minimap.enabled": false,
     "editor.renderControlCharacters": false,
-    "editor.tabSize": 2,
+    "editor.renderWhitespace": "boundary",
+    "editor.smoothScrolling": true,
     "editor.wordWrap": "on",
     "explorer.decorations.badges": false,
+    "editor.guides.bracketPairsHorizontal": "active",
+    "editor.guides.bracketPairs": "active",
     "html.autoClosingTags": false,
     "markdown.preview.fontSize": 14,
     "markdown-preview-enhanced.previewTheme": "github-dark.css",
@@ -30,7 +31,7 @@ A repo for my VS Code settings.
     "terminal.integrated.fontSize": 14,
     "terminal.external.osxExec": "Warp.app",
     "window.menuBarVisibility": "compact",
-    "window.zoomLevel": 0.5,
+    "window.zoomLevel": 0.4,
     "workbench.colorCustomizations": {},
     "workbench.sash.hoverDelay": 0,
     "workbench.sash.size": 1,
@@ -49,7 +50,8 @@ A repo for my VS Code settings.
       "editor.defaultFormatter": "yzhang.markdown-all-in-one"
     },
     "[python]": {
-      "editor.formatOnType": true
+      "editor.formatOnType": true,
+      "editor.defaultFormatter": "ms-python.black-formatter"
     },
     "solidity.formatter": "forge",
     "solidity.packageDefaultDependenciesContractsDirectory": "src",
@@ -64,5 +66,7 @@ A repo for my VS Code settings.
     "liveServer.settings.donotShowInfoMsg": true,
     "cSpell.dictionaryDefinitions": [],
     "editor.accessibilitySupport": "off",
+    "editor.fontSize": 14,
+    "jupyter.interactiveWindow.textEditor.executeSelection": true,
   }
 ```
