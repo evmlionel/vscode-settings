@@ -6,7 +6,6 @@ A repo for my VS Code settings.
 
 ```json
 {
-  "editor.bracketPairColorization.enabled": true,
   "editor.cursorBlinking": "phase",
   "editor.fontLigatures": true,
   "editor.fontWeight": "normal",
@@ -14,7 +13,6 @@ A repo for my VS Code settings.
   "editor.linkedEditing": true,
   "editor.minimap.enabled": false,
   "editor.wordWrap": "on",
-  "editor.guides.bracketPairs": "active",
   "editor.guides.bracketPairsHorizontal": "active",
   "editor.fontSize": 14,
   "terminal.integrated.fontSize": 14,
@@ -22,7 +20,7 @@ A repo for my VS Code settings.
   "terminal.integrated.defaultProfile.windows": "Git Bash",
   "window.menuBarVisibility": "compact",
   "window.zoomLevel": 0.25,
-  "workbench.colorTheme": "Default Dark+",
+  "workbench.colorTheme": "Solidity Visual Developer Dark",
   "workbench.sideBar.location": "right",
   "workbench.tree.indent": 10,
   "security.workspace.trust.untrustedFiles": "open",
@@ -39,7 +37,7 @@ A repo for my VS Code settings.
   "liveServer.settings.donotShowInfoMsg": true,
   "jupyter.interactiveWindow.textEditor.executeSelection": true,
   "interactiveWindow.executeWithShiftEnter": true,
-  
+
   // Language-specific settings
   "[html]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
@@ -55,7 +53,7 @@ A repo for my VS Code settings.
   },
   "[python]": {
     "editor.formatOnType": true,
-    "editor.defaultFormatter": "ms-python.black-formatter"
+    "editor.defaultFormatter": "charliermarsh.ruff"
   },
 
   // Solidity settings
@@ -66,7 +64,7 @@ A repo for my VS Code settings.
 
   // Accessibility
   "editor.accessibilitySupport": "off",
-  
+
   // Editor decorations and control characters
   "explorer.decorations.badges": false,
   "editor.renderControlCharacters": false,
@@ -74,6 +72,14 @@ A repo for my VS Code settings.
   // Additional settings for consistency and enhancements
   "workbench.sash.hoverDelay": 0,
   "workbench.sash.size": 1,
-  "cSpell.dictionaryDefinitions": []
+  "cSpell.dictionaryDefinitions": [],
+  "editor.guides.bracketPairs": "active",
+  "workbench.editor.labelFormat": "medium",
+  "supermaven.enable": {
+    "*": true
+  },
+  "cSpell.enableFiletypes": ["solidity"],
+  "cSpell.userWords": ["Chainlink", "Diwald"]
 }
+
 ```
