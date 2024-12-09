@@ -6,31 +6,44 @@ A repo for my VS Code settings.
 
 ```json
 {
-  // Editor Core Settings
-  "editor.fontSize": 14,
-  "editor.fontWeight": "normal",
-  "editor.fontLigatures": true,
   "editor.cursorBlinking": "phase",
+  "editor.fontLigatures": true,
+  "editor.fontWeight": "normal",
+  "editor.fontSize": 14,
   "editor.formatOnSave": true,
   "editor.linkedEditing": true,
   "editor.minimap.enabled": false,
   "editor.wordWrap": "on",
-  "editor.accessibilitySupport": "off",
-  "editor.renderControlCharacters": false,
-  "editor.suggestSelection": "first",
   "editor.guides.bracketPairs": "active",
   "editor.guides.bracketPairsHorizontal": "active",
-
-  // Formatting & Code Style
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "editor.codeActionsOnSave": ["source.fixAll.eslint"],
+  "editor.accessibilitySupport": "off",
+  "editor.renderControlCharacters": false,
+  "terminal.integrated.fontSize": 14,
+  "terminal.integrated.cursorStyle": "line",
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "window.menuBarVisibility": "compact",
+  "window.zoomLevel": 0.25,
+  "workbench.sideBar.location": "right",
+  "workbench.tree.indent": 10,
+  "workbench.sash.hoverDelay": 0,
+  "workbench.sash.size": 1,
+  "workbench.editor.labelFormat": "medium",
+  "workbench.colorTheme": "Hackr Theme",
+  "security.workspace.trust.untrustedFiles": "open",
+  "explorer.decorations.badges": false,
+  "html.autoClosingTags": false,
+  "markdown.preview.fontSize": 14,
+  "markdown-preview-enhanced.previewTheme": "github-dark.css",
   "prettier.singleQuote": true,
-  "prettier.semi": false,
-  "prettier.trailingComma": "es5",
-  "files.trimTrailingWhitespace": true,
-  "files.insertFinalNewline": true,
-
-  // Language-specific Settings
+  "github.copilot.enable": {
+    "*": true,
+    "plaintext": false,
+    "markdown": true,
+    "scminput": false
+  },
+  "liveServer.settings.donotShowInfoMsg": true,
+  "jupyter.interactiveWindow.textEditor.executeSelection": true,
+  "interactiveWindow.executeWithShiftEnter": true,
   "[html]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
@@ -40,12 +53,6 @@ A repo for my VS Code settings.
   "[json]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "[typescript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[typescriptreact]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
   "[markdown]": {
     "editor.defaultFormatter": "yzhang.markdown-all-in-one"
   },
@@ -53,79 +60,17 @@ A repo for my VS Code settings.
     "editor.formatOnType": true,
     "editor.defaultFormatter": "charliermarsh.ruff"
   },
-
-  // Workbench & UI
-  "workbench.colorTheme": "Atom One Dark",
-  "workbench.sideBar.location": "right",
-  "workbench.tree.indent": 10,
-  "workbench.editor.labelFormat": "medium",
-  "workbench.activityBar.location": "top",
-  "workbench.activityBar.orientation": "vertical",
-  "workbench.sash.hoverDelay": 0,
-  "workbench.sash.size": 1,
-  "window.menuBarVisibility": "compact",
-  "window.zoomLevel": 0.25,
-
-  // Terminal
-  "terminal.integrated.fontSize": 14,
-  "terminal.integrated.cursorStyle": "line",
-  "terminal.integrated.defaultProfile.windows": "Git Bash",
-
-  // File Associations & Imports
-  "files.associations": {
-    "*.tsx": "typescriptreact"
-  },
-  "typescript.updateImportsOnFileMove.enabled": "always",
-  "javascript.updateImportsOnFileMove.enabled": "always",
-
-  // Markdown & Documentation
-  "markdown.preview.fontSize": 14,
-  "markdown-preview-enhanced.previewTheme": "github-dark.css",
-
-  // Security & Trust
-  "security.workspace.trust.untrustedFiles": "open",
-
-  // GitHub Copilot
-  "github.copilot.enable": {
-    "*": true,
-    "plaintext": false,
-    "markdown": true,
-    "scminput": false
-  },
-
-  // Solidity
   "solidity.formatter": "forge",
   "solidity.packageDefaultDependenciesContractsDirectory": "src",
   "solidity.packageDefaultDependenciesDirectory": "lib",
   "solidity.telemetry": false,
-
-  // Live Server
-  "liveServer.settings.donotShowInfoMsg": true,
-
-  // Jupyter
-  "jupyter.interactiveWindow.textEditor.executeSelection": true,
-  "interactiveWindow.executeWithShiftEnter": true,
-
-  // Cursor & SuperMaven
-  "cursor.cpp.disabledLanguages": ["plaintext", "scminput"],
-  "cursor.cmdk.useThemedDiffBackground": true,
-  "supermaven.enable": {
-    "*": true
-  },
-
-  // Spell Checker
   "cSpell.dictionaryDefinitions": [],
   "cSpell.enableFiletypes": ["solidity"],
   "cSpell.userWords": ["Chainlink", "Diwald"],
-
-  // HTML
-  "html.autoClosingTags": false,
-
-  // Explorer
-  "explorer.decorations.badges": false,
-  "symbols.hidesExplorerArrows": false,
-
-  // Highlight Rules
+  "supermaven.enable": {
+    "*": true
+  },
+  "cursor.cpp.disabledLanguages": ["plaintext", "scminput"],
   "highlight.regexes": {
     "((?:<!-- *)?(?:#|// @|//|./\\*+|<!--|--|\\* @|{!|{{!--|{{!) *TODO(?:\\s*\\([^)]+\\))?:?)((?!\\w)(?: *-->| *\\*/| *!}| *--}}| *}}|(?= *(?:[^:]//|/\\*+|<!--|@|--|{!|{{!--|{{!))|(?: +[^\\n@]*?)(?= *(?:[^:]//|/\\*+|<!--|@|--(?!>)|{!|{{!--|{{!))|(?: +[^@\\n]+)?))": {
       "filterFileRegex": ".*(?<!CHANGELOG.md)$",
@@ -187,8 +132,7 @@ A repo for my VS Code settings.
         }
       ]
     }
-  }
+  },
+  "window.commandCenter": false
 }
-
-
 ```
